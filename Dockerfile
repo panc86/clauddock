@@ -26,4 +26,4 @@ RUN npm install -g @anthropic-ai/claude-code
 USER ubuntu
 WORKDIR /home/ubuntu/projects
 
-ENTRYPOINT ["claude"]
+ENTRYPOINT [ "/bin/bash" ]
