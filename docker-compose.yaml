@@ -1,7 +1,7 @@
 services:
-  claude:
+  claudock:
     build: .
-    image: claudio:latest
+    image: claudock:latest
     container_name: claudio
     stdin_open: true
     tty: true

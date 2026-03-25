@@ -1,6 +1,8 @@
 # Claudock — Claude Code in Docker
 
-Run Claude Code inside an isolated Docker container with your project mounted as a volume. The container runs as the default `ubuntu` user (UID/GID 1000) shipped with the Ubuntu 24.04 base image.
+Run Claude Code inside an isolated Docker container with your project mounted as a volume.
+
+The container runs as the default `ubuntu` user (UID/GID 1000) shipped with the Ubuntu 24.04 base image.
 
 ## Prerequisites
 
@@ -24,7 +26,7 @@ Run Claude Code inside an isolated Docker container with your project mounted as
 3. **Run Claude Code**:
 
    ```bash
-   docker compose run --rm claude
+   docker compose run --rm claudock
    ```
 
    On first launch, Claude will prompt you to log in — follow the instructions in the terminal to authenticate.
