@@ -1,4 +1,4 @@
-# Claudio — Claude Code in Docker
+# Claudock — Claude Code in Docker
 
 Run Claude Code inside an isolated Docker container with your project mounted as a volume. The container runs as the default `ubuntu` user (UID/GID 1000) shipped with the Ubuntu 24.04 base image.
 
