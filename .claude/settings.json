@@ -20,9 +20,6 @@
     "type": "command",
     "command": "bash /home/ubuntu/.claude/scripts/statusline.sh"
   },
-  "enabledPlugins": {
-    "skill-creator@claude-plugins-official": true,
-    "pyright-lsp@claude-plugins-official": true
-  },
+  "enabledPlugins": {},
   "effortLevel": "medium"
 }
